@@ -9,21 +9,21 @@
     <EditText
         android:id="@+id/calculatorView"
         android:layout_width="384dp"
-        android:text=""
+        android:hint="0.0"
         tools:layout_editor_absoluteX="14dp"
         tools:layout_editor_absoluteY="14dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="10dp"
-        android:inputType="textPersonName"
         android:ems="10"
         android:background="@color/gray"
         android:gravity="right|bottom"
         android:textColor="@color/white"
         android:textSize="36sp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:inputType="number"/>
 
     <TableLayout
         android:layout_width="wrap_content"
